@@ -267,6 +267,15 @@ section { padding: 76px 0; }
 
 /* ---------- Services ---------- */
 .services { background: var(--white); }
+.services-group-title {
+  font-size: 1.05rem;
+  color: var(--green-700);
+  margin: 0 0 18px;
+}
+.services-group-title:not(:first-of-type) {
+  margin-top: 48px;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
